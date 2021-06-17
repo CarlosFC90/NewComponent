@@ -1,11 +1,26 @@
 .card {
   left: 50%;
   top: 50%;
-  transform: translate(50%, 50%);
+  transform: translate(14%, 50%);
   border-radius: 16px;
   box-shadow: 0 2px 3px 0 rgba(53, 53, 53, 0.24),0 2px 3px 0 rgba(0,0,0,0.16);
   height: 45px;
   border: 1px solid white;
+  background-color: white;
+  visibility: visible;
+  border: 1px solid #fff;
+}
+
+.card-back {
+  border-radius: 0px 16px 16px 0px;
+  box-shadow: 0 2px 3px 0 rgba(53, 53, 53, 0.24),0 2px 3px 0 rgba(0,0,0,0.16);
+  height: 46px;
+  border: 1px solid white;
+  left: 50%;
+  transform: translate(765%, 35%);
+  margin-top: 7px;
+  padding-left: 20px;
+  background-color: white;
 }
 
 .items {
@@ -14,12 +29,26 @@
 }
 
 .button {
-  padding: 3px 15px;
+  padding: 4px 15px;
   border-radius: 20px;
-  margin-top: 5px;
   text-decoration: none;
   color: gray;
   box-shadow: 0 2px 3px 0 rgba(53, 53, 53, 0.24),0 2px 3px 0 rgba(0,0,0,0.16);
   font-size: 14px;
-  border: 1px solid white;
+  border: 1px solid #fff;
 }
+
+.arrows-icons {
+  color: #009DFF;
+  height: 15px !important;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator:active {
+  border: none;
+}
+
+
